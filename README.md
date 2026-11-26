@@ -109,9 +109,36 @@ Example output:
 
 The example illustrates the expected JSON structure; actual extracted values depend on the supplied job post and Gemini response.
 
-## Empty Input
+### Empty input
 
-The application handles empty input without calling Gemini:
+```bash
+uv run extract.py ""
+```
+
+## Empty input
+
+An empty or whitespace-only argument returns the default schema values without calling Gemini:
+
+```json
+{
+  "job_title": null,
+  "company": null,
+  "location": null,
+  "employment_type": null,
+  "salary": null,
+  "experience": null,
+  "description": null,
+  "requirements": [],
+  "application_url": null,
+  "contact_email": null
+}
+```
+
+### Output and logging
+
+- **stdout:** JSON only, suitable for piping into another program.
+- **stderr:** attempt logs, validation messages, and errors.
+- **Exit code:** `0` for a successful extraction; `1` when extraction fails.
 
 ```bash
 uv run extract.py ""
