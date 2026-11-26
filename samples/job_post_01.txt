@@ -1,0 +1,26 @@
+
+URGENT HIRING!
+
+ABC Technologies is looking for a Python Developer.
+
+Location: Islamabad, Pakistan
+Employment: Full-time
+Salary: PKR 120,000 - 180,000 per month
+
+Experience: 2+ years
+
+Responsibilities:
+Build Python applications, develop REST APIs,
+integrate third-party services, and maintain backend systems.
+
+Requirements:
+- Python
+- FastAPI
+- REST APIs
+- PostgreSQL
+- Git
+
+Apply here:
+https://example.com/careers/python-developer
+
+Contact: careers@example.com
