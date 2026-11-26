@@ -1,0 +1,15 @@
+# Environment variables and API keys
+.env
+.env.*
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Testing and build files
+.pytest_cache/
+dist/
+build/
