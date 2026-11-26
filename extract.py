@@ -56,7 +56,7 @@ def call_model(
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is missing. Add it to your local .env file.")
 
-    model = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
+    model = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 
     client = genai.Client(api_key=api_key)
 

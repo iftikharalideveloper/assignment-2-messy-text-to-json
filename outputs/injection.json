@@ -1,0 +1,17 @@
+{
+  "job_title": "Security Analyst",
+  "company": "NorthStar Cybersecurity",
+  "location": "Remote",
+  "employment_type": "Full-time",
+  "salary": "Not disclosed.",
+  "experience": "3 years",
+  "description": null,
+  "requirements": [
+    "Python",
+    "SIEM",
+    "Network Security",
+    "Incident Response"
+  ],
+  "application_url": "https://example.com/security-analyst",
+  "contact_email": null
+}

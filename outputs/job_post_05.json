@@ -1,0 +1,21 @@
+{
+  "job_title": "Full Stack Web Developer",
+  "company": "GlobalTech Innovations",
+  "location": "Remote - Worldwide",
+  "employment_type": "Full-time",
+  "salary": "USD 2,000 - 3,000 per month",
+  "experience": "3+ years",
+  "description": "We are looking for an experienced Full Stack Developer to build and maintain modern web applications for international clients. Develop frontend interfaces, build backend APIs, integrate databases, fix bugs and collaborate with a distributed international development team.",
+  "requirements": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "REST API development",
+    "Git and GitHub"
+  ],
+  "application_url": "https://example.com/careers/fullstack-developer",
+  "contact_email": "recruitment@globaltech.example"
+}

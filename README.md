@@ -67,7 +67,7 @@ Open `.env` and add your Gemini API key:
 
 ```env
 GEMINI_API_KEY=your_actual_api_key
-GEMINI_MODEL=gemini-3.8-flash
+GEMINI_MODEL=gemini-3.5-flash-lite
 ```
 
 Never commit the real `.env` file or share your API key.
@@ -250,7 +250,22 @@ Prompt-level instructions are safeguards, not a guarantee against every possible
 
 ## Development Status
 
-The local automated tests have passed. Live Gemini extraction and saved model-generated sample outputs still require successful API availability and verification.
+The project has successfully completed local automated testing and live Gemini API extraction using `gemini-3.5-flash-lite`.
+
+### Verification Results
+
+- 9/9 automated unit tests passed.
+- 5/5 normal job-post samples successfully extracted.
+- 4/4 edge cases processed, including empty input, Spanish text, junk text, and prompt injection.
+- All 9 saved JSON files passed Pydantic validation.
+- UTF-8 encoding verified for multilingual output.
+- Validation retry mechanism tested, including the three-attempt limit.
+- Fresh-clone installation and CLI tests passed.
+- Git security scans found no obvious API keys or private keys.
+
+### Model
+
+Google Gemini `gemini-3.5-flash-lite`
 
 ---
 

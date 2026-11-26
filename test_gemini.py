@@ -13,7 +13,7 @@ def main():
     load_dotenv()
 
     api_key = os.getenv("GEMINI_API_KEY")
-    model = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
+    model = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 
     if not api_key:
         print("Error: GEMINI_API_KEY not found in .env", file=sys.stderr)

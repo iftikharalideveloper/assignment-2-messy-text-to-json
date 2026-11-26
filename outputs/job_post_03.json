@@ -1,0 +1,17 @@
+{
+  "job_title": "Senior Backend Engineer",
+  "company": "TechVision Solutions",
+  "location": "Lahore, hybrid work",
+  "employment_type": "contract-based",
+  "salary": "negotiable depending on skills",
+  "experience": "minimum 5 years",
+  "description": "Develop backend services, maintain APIs and work with the engineering team.",
+  "requirements": [
+    "strong Node.js and Python experience",
+    "must know databases (MongoDB/PostgreSQL)",
+    "API development",
+    "cloud platforms"
+  ],
+  "application_url": "https://example.com/jobs/backend-engineer",
+  "contact_email": "jobs@techvision.example"
+}

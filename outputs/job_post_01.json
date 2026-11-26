@@ -1,0 +1,18 @@
+{
+  "job_title": "Python Developer",
+  "company": "ABC Technologies",
+  "location": "Islamabad, Pakistan",
+  "employment_type": "Full-time",
+  "salary": "PKR 120,000 - 180,000 per month",
+  "experience": "2+ years",
+  "description": "Build Python applications, develop REST APIs, integrate third-party services, and maintain backend systems.",
+  "requirements": [
+    "Python",
+    "FastAPI",
+    "REST APIs",
+    "PostgreSQL",
+    "Git"
+  ],
+  "application_url": "https://example.com/careers/python-developer",
+  "contact_email": "careers@example.com"
+}

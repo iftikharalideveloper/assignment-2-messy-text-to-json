@@ -1,0 +1,17 @@
+{
+  "job_title": "Desarrollador Python",
+  "company": "Innovate México",
+  "location": "Ciudad de México",
+  "employment_type": "Tiempo completo",
+  "salary": "35,000 - 45,000 MXN mensuales",
+  "experience": "2 años",
+  "description": "Desarrollar aplicaciones Python, crear APIs REST y trabajar con bases de datos.",
+  "requirements": [
+    "Python",
+    "Django",
+    "PostgreSQL",
+    "APIs REST"
+  ],
+  "application_url": null,
+  "contact_email": "talento@innovate.example"
+}
