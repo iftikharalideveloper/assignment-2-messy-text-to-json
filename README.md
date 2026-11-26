@@ -134,17 +134,17 @@ An empty or whitespace-only argument returns the default schema values without c
 }
 ```
 
-### Output and logging
-
-- **stdout:** JSON only, suitable for piping into another program.
-- **stderr:** attempt logs, validation messages, and errors.
-- **Exit code:** `0` for a successful extraction; `1` when extraction fails.
-
 ```bash
 uv run extract.py ""
 ```
 
 Missing fields are returned with their default values.
+
+### Output and logging
+
+- **stdout:** JSON only, suitable for piping into another program.
+- **stderr:** attempt logs, validation messages, and errors.
+- **Exit code:** `0` for a successful extraction; `1` when extraction fails.
 
 ## Validation and Retry Mechanism
 
